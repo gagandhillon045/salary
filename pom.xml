@@ -79,13 +79,13 @@
 		</dependency>
 
 		
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-pmd-plugin -->
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-pmd-plugin 
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-pmd-plugin</artifactId>
     <version>3.14.0</version>
 </dependency>
-
+-->
 		
 		
         <dependency>
@@ -147,5 +147,9 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<plugin>           <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
 	</build>
 </project>
